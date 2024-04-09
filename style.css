@@ -24,6 +24,8 @@ height: 120px;
 }
 
 .logo-texto{
+    text-align: center;
+    font-size: 27px;
     margin: 0 600px;
     color: #B77323;
 }
@@ -40,4 +42,37 @@ height: 120px;
 }
 .login li a:hover{
     background-color: rgba(73, 50, 1, 0.2);
+}
+
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FF7A00;
+    padding: 10px 150px;
+    border-radius: 10px;;
+}
+
+.titulo-texto{
+    text-align: center;
+    font-size: 27px;
+    color: #FF7A00;
+    padding: 70px 0px;
+}
+
+.texto-explicativo{
+    text-align: center;
+    font-size: 20px;
+    color: #B77323;
+    padding: 0px 170px;
+}
+
+.titulo-generos{
+    text-align: center;
+    font-size: 27px;
+    color: #FF7A00;
+    padding: 70px 0px;
 }
