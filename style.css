@@ -1,4 +1,43 @@
-header {
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+header{
+    width: 100%;
     background-color: #F8EFEA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo-imagem{
+width: 150px;
+height: 120px;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto{
+    margin: 0 600px;
     color: #B77323;
+}
+
+.login li{
+    display: inline-block;
+}
+.login li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #B77323;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.login li a:hover{
+    background-color: rgba(73, 50, 1, 0.2);
 }
