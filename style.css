@@ -41,7 +41,7 @@ height: 120px;
     border-radius: 10px;
 }
 .login li a:hover{
-    background-color: rgba(73, 50, 1, 0.2);
+    background-color: rgba(58, 40, 0, 0.2);
 }
 
 .menu li{
@@ -52,8 +52,7 @@ height: 120px;
     font-size: 20px;
     text-decoration: none;
     color: #FF7A00;
-    padding: 10px 150px;
-    border-radius: 10px;;
+    padding: 0px 150px;
 }
 
 .titulo-texto{
@@ -71,6 +70,27 @@ height: 120px;
 }
 
 .titulo-generos{
+    text-align: center;
+    font-size: 27px;
+    color: #FF7A00;
+    padding: 70px 0px;
+}
+
+.genero-imagem{
+    width: 230px;
+}
+
+.genero-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.genero-todos{
+    display: grid;
+    grid-template-columns: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
+}
+
+.noticias{
     text-align: center;
     font-size: 27px;
     color: #FF7A00;
