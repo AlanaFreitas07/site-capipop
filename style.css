@@ -90,9 +90,14 @@ height: 120px;
     grid-template-columns: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
 }
 
-.noticias{
+.noticias-titulo{
     text-align: center;
     font-size: 27px;
     color: #FF7A00;
     padding: 70px 0px;
+}
+
+#dov{
+    display: flex;
+    justify-content: center;
 }
